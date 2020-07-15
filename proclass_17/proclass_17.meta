@@ -1,0 +1,13 @@
+filename : proclass_17
+bytes : 45017
+md5sum : 8eb08a0a49316e08564d6ba3e2d118d1
+filetype : ASCII text
+rows : 587
+cols : 5
+datatypes : {
+        code    		int,
+        level1  		varchar,
+        level2  		varchar,
+        level3  		varchar,
+        clarification_info      varchar
+}
