@@ -22,6 +22,13 @@ $ mkdir working
 $ cd working
 $ git clone https://github.com/northwestopendata/lgtc_refdata
 ```
+#### Creating a PostgreSQL table
+After cloning repo, cd to proclass_17 directory
+```
+$ psql -d <YOURDB> -f proclass_17.sql
+CREATE TABLE
+COPY 586
+```
 ### Directory layout
 ```
 ./lgtc_refdata:
@@ -83,7 +90,7 @@ https://api.gitrows.com/@github/northwestopendata/lgtc_refdata/proclass_17/procl
 
 ## Source
 
-This is ProClass vC17.1 and is available from [https://proclass.org.uk/paid-downloads.html]
+This is ProClass vC17.1 and is available from https://proclass.org.uk/paid-downloads.html
 
 ## License
 ProClass is a local government owned and is made freely available to any UK public sector organisation. 
@@ -93,4 +100,5 @@ ProClass is meant for general use and will be issued following the terms of the 
 Government users, and for data publishing and re-use.
 
 * Data : [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
-* Other scripts : [MIT](http://opensource.org/licenses/mit-license.php)
+* Other scripts : [MIT](http://opensource.org/licenses/mit-license.php) - Copyright &copy; Northwestopendata
+

@@ -1,3 +1,11 @@
+/*
+Repository	:	https://github.com/northwestopendata/lgtc_refdata
+File		:	proclass_17.sql
+Description	:	Creates proclass_17 table and loads proclass_17.csv file
+
+Notes		:	- Edit file path prior to running
+			- Target database PostgreSQL
+*/
 create table proclass_17
 (
 	code	int,
@@ -15,6 +23,5 @@ COPY proclass_17
         level3,
         clarification_info
 )
-from '/path/to/file' DELIMITER ',';
-
-
+--- EDIT '/path/to' FOR YOUR FILE LOCATION
+from '/path/to/proclass_17.csv' DELIMITER ',' CSV HEADER;
