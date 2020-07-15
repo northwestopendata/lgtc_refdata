@@ -17,4 +17,6 @@ ProClass is a local government owned and is made freely available to any UK publ
 
 ProClass is meant for general use and will be issued following the terms of the Open Government Licence for Government users, and for data publishing and re-use.
 
-[Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+* Data : [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+* Other scripts : [MIT](http://opensource.org/licenses/mit-license.php) - Copyright © Northwestopendata
+
