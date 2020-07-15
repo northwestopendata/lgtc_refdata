@@ -2,7 +2,7 @@
 
 [ProClass](http://www.proclass.org.uk) is one of the purchasing categories used by local governments, it comprises of a numeric code with 3 levels of text description and a clarification column. The directory contains .csv/.meta files and a template sql file to create a PostgreSQL table and import the file. An API is available via [GitRows](https://gitrows.com/). 
 
-This is ProClass vC17.1 and is available from [https://proclass.org.uk/paid-downloads.html]
+This is ProClass vC17.1 and is available from https://proclass.org.uk/paid-downloads.html
 
 **This repository is not the Official ProClass Release**, it is included here as part of a larger Refernce Data collection for use with Local Government Open Data, specifically Expenditure Data.
 
