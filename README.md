@@ -4,11 +4,47 @@ A collection of SQL and shell scripts and data files related to local government
 
 ## Contents
 
+### Category Data
 * Proclass Data - [proclass_17](https://github.com/northwestopendata/lgtc_refdata/tree/master/proclass_17)
+* Local Government Service List (LGSL) - TBA
+* Service Reporting Code of Practice (SeRCoP)  - TBA
+
+### Company Data
+* CoHouseLite - [CoHouseLite]((https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite)
+* SICC Codes - TBA
 
 ## Details
+
 ### Proclass
-[ProClass](http://www.proclass.org.uk) is one of the purchasing categories used by local governments, it comprises of a numeric code with 3 levels of text description and a clarification column. The directory contains .csv/.meta files and a template sql file to create a PostgreSQL table and import the file. An API is available via [GitRows](https://gitrows.com/). More details can be found on the [Proclass README.md](https://github.com/northwestopendata/lgtc_refdata/tree/master/proclass_17/README.md).
+[ProClass](http://www.proclass.org.uk) is one of the purchasing categories used by local 
+governments, it comprises of a numeric code with 3 levels of text description and a 
+clarification column. The directory contains .csv/.meta files and a template sql file to 
+create a PostgreSQL table and import the file. An API is available via 
+[GitRows](https://gitrows.com/). More details can be found on the 
+[Proclass README.md](https://github.com/northwestopendata/lgtc_refdata/tree/master/proclass_17/README.md).
+
+### CoHouseLite
+Is a subset of the Companies House companies dataset, it only covers the following columns
+```
+        companyname,
+        companynumber,
+        regaddress_careof,
+        regaddress_pobox,
+        regaddress_addressline1,
+        regaddress_addressline2,
+        regaddress_posttown,
+        regaddress_county,
+        regaddress_country,
+        regaddress_postcode,
+        companycategory,
+        companystatus,
+        countryoforigin,
+        siccode_sictext_1,
+        siccode_sictext_2,
+        siccode_sictext_3,
+        siccode_sictext_4
+```
+It's available as a single gzipped file or a set of 5 one million rows each in a .zip archive
 
 
 ## License
