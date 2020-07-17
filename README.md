@@ -47,12 +47,19 @@ Is a subset of the Companies House companies dataset, it only covers the followi
 ```
 It's available as a single gzipped file or a set of 5 one million rows each in a .zip archive
 
+| Filename           | Description | Link | Size(MB) | Meta Data |
+|--------------------|-------------|------|----------|-----------|
+| CoHouseLite.csv.gz | Single file | [CoHouseLite.csv.gz](https://mega.nz/file/MBxClIwT#a2EmsqPEp8WizvU6pO8RM43ZLlNL57vT10mVUocoy8E) | 212 | [Meta File](https://github.com/northwestopendata/lgtc_refdata/CoHouseLite.csv.gz.meta)|
+| CoHouseLite.zip | 5 files in a zip archive |[CoHouseLite.zip](https://mega.nz/file/gdgTBAzL#FeipiROBHWKPICVQRMqKgz3rTaOBnkQcK15dufWd13I) | 210 | [Meta File](https://github.com/northwestopendata/lgtc_refdata/CoHouseLite.zip.meta)|
+
 
 ## License
 
 ProClass is a local government owned and is made freely available to any UK public sector organisation. The trademark for the ProClass name is owned by the City of London Corporation on behalf of local government.
 
 ProClass is meant for general use and will be issued following the terms of the Open Government Licence for Government users, and for data publishing and re-use.
+
+Companies House Data is released under [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 * Data : [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 * Other scripts : [MIT](http://opensource.org/licenses/mit-license.php) - Copyright © Northwestopendata
