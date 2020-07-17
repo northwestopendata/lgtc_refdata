@@ -10,8 +10,9 @@ A collection of SQL and shell scripts and data files related to local government
 * Service Reporting Code of Practice (SeRCoP)  - TBA
 
 ### Company Data
-* CoHouseLite - [CoHouseLite]((https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite)
+* CoHouseLite - [CoHouseLite](https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite)
 * SICC Codes - TBA
+* Company Number Formats - TBA
 
 ## Details
 
