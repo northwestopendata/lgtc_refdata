@@ -1,0 +1,33 @@
+filename : CoHouseLite.zip
+bytes : 219889350
+md5sum : f15d2110cff1d69267126f67198ca5ab
+filetype : zip
+rows : 4671967 (unzipped)
+cols : 17 (unzipped)
+contains_files : {
+	01company.csv
+	02company.csv
+	03company.csv
+	04company.csv
+	05company.csv
+}
+datatypes : {
+        companyname character varying,
+        companynumber character varying,
+        regaddress_careof character varying,
+        regaddress_pobox character varying,
+        regaddress_addressline1 character varying,
+        regaddress_addressline2 character varying,
+        regaddress_posttown character varying,
+        regaddress_county character varying,
+        regaddress_country character varying,
+        regaddress_postcode character varying,
+        companycategory character varying,
+        companystatus character varying,
+        countryoforigin character varying,
+        siccode_sictext_1 character varying,
+        siccode_sictext_2 character varying,
+        siccode_sictext_3 character varying,
+        siccode_sictext_4 character varying
+}
+
