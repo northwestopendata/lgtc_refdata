@@ -2,7 +2,7 @@
 
 The UK Government produces Company data available from the [Companies House website](http://download.companieshouse.gov.uk/en_output.html). 
 The full file with 55 columns of data is currently over 380MB in zipped format. 
-The date provided here is a subset of the CH dataset.
+The data provided here is a subset of the CH dataset.
 
 This is a subset of the Companies House dataset, the full set is available from http://download.companieshouse.gov.uk/en_output.html. 
 Downloaded July 2020.
@@ -38,7 +38,7 @@ Country of Origin and the SICC code which serves as a merchant category area.
 
 
 #### Downloading the data
-The data files are too large to be uploaded to GitHub. I've hosted them on [MEGA Cloud Storage](https://mega.nz/)
+The data files are too large to be uploaded to GitHub. I've hosted them on [MEGA Cloud Storage](https://mega.nz/)(_You don't need to sign up to download_)
 Two files are available
 * A zipped(.gz) file `CoHouseLite.csv.gz` containing a single CSV file. This is suitable for use loading into a database, a PostgreSQL create 
 table and load file is included in this directory. A .meta file is also included.
@@ -91,6 +91,7 @@ n/a
 * [LGA Procurement Guide](https://www.local.gov.uk/sites/default/files/documents/publishing-spending-and-p-485.pdf)
 
 ## To Do
+[ ] Add indexing to .sql file
 
 ## Technologies
 
