@@ -26,6 +26,7 @@ create a PostgreSQL table and import the file. An API is available via
 
 ### CoHouseLite
 Is a subset of the Companies House companies dataset, it only covers the following columns
+More details can be found on the [CoHouseLite README.md](https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite/README.md).
 ```
         companyname,
         companynumber,
