@@ -59,6 +59,7 @@ $ git clone https://github.com/northwestopendata/lgtc_refdata
 #### Creating a PostgreSQL table
 ```
 $ cd CoHouseLite
+  ~~ copy downloaded CoHouseLite.csv.gz to this director ~~
 $ gunzip CoHouseLite.csv.gz
 $ vi CoHouseLite.sql                   # Change '/path/to' for your location 
 $ psql -d <YOURDB> -f CoHouseLite.sql
