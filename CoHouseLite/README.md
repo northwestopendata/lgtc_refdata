@@ -12,7 +12,10 @@ specifically Expenditure Data.
 
 ## Details
 
-### About the Data
+### CoHouseLite.csv & CoHouseLite.zip
+It covers Company Name, Company Number, Address, Category, Status(Active, Dormant etc),
+Country of Origin and the SIC code which serves as a merchant category area.
+
 The data available here is limited to the following columns
 ```
         companyname,
@@ -33,12 +36,25 @@ The data available here is limited to the following columns
         siccode_sictext_3,
         siccode_sictext_4
 ```
-It covers Company Name, Company Number, Address, Category, Status(Active, Dormant etc), 
-Country of Origin and the SICC code which serves as a merchant category area.
+
+### CoSicCode.csv
+A file containing just the Standard Industrial Classification of economic activities(SIC) Codes in the Companies House Dataset
+```
+        siccode_sictext_1     -- The full SIC code as it appears in the above dataset
+        sicc_int              -- The numeric part as an integer
+        sictext_1             -- Just the text part
+```
+
+### CoNamePrefix.csv
+A file containing the Company number prefixes, extracted from [Companies House Customer URI Guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/809682/uniformResourceIdentifiersCustomerGuide.pdf)
+```
+		prefix
+		company_type
+```
 
 
 #### Downloading the data
-The data files are too large to be uploaded to GitHub. I've hosted them on [MEGA Cloud Storage](https://mega.nz/)(_You don't need to sign up to download_)
+The Companies Data files are too large to be uploaded to GitHub. I've hosted them on [MEGA Cloud Storage](https://mega.nz/)(_You don't need to sign up to download_)
 Two files are available
 * A zipped(.gz) file `CoHouseLite.csv.gz` containing a single CSV file. This is suitable for use loading into a database, a PostgreSQL create 
 table and load file is included in this directory. A .meta file is also included.
@@ -56,7 +72,8 @@ $ mkdir working
 $ cd working
 $ git clone https://github.com/northwestopendata/lgtc_refdata
 ```
-#### Creating a PostgreSQL table
+#### Creating PostgreSQL Table Files
+To create a Companies Table
 ```
 $ cd CoHouseLite
   ~~ copy downloaded CoHouseLite.csv.gz to this directory ~~
@@ -66,6 +83,7 @@ $ psql -d <YOURDB> -f CoHouseLite.sql
 CREATE TABLE
 COPY 4671967
 ```
+
 ### Directory layout
 ```
 ./lgtc_refdata:
@@ -73,6 +91,9 @@ COPY 4671967
 		CoHouseLite.csv.gz.meta    <-- meta data file
 		CoHouseLite.zip.meta       <-- meta data file
 		CoHouseLite.sql            <-- PostgreSQL create table and load file
+		CoNamePrefix.csv           <-- Company Number prefix data
+		CoSicCode.csv              <-- SIC Code data 
+		CoSicCode.sql              <-- SIC Code create table and load file
 		README.md                  <-- this file
 	README.md                      <-- repository README
 ```
@@ -108,4 +129,6 @@ Government users, and for data publishing and re-use.
 * Other scripts : [MIT](http://opensource.org/licenses/mit-license.php) - Copyright &copy; Northwestopendata
 
 ## Validation
-n/a files too large for web validators
+* CoHouseLite.csv - n/a files too large for web validators
+* CoNamePrefix.csv - [![CSV Validation](https://csvlint.io/validation/5f327a1874b8cb000400005b.svg)](https://csvlint.io/validation/5f327a1874b8cb000400005b)
+* CoSicCode.csv - [![CSV Validation](https://csvlint.io/validation/5f327b4d74b8cb000400005d.svg)](https://csvlint.io/validation/05f327b4d74b8cb000400005d)
