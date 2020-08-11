@@ -11,8 +11,8 @@ A collection of SQL and shell scripts and data files related to local government
 
 ### Company Data
 * CoHouseLite - [CoHouseLite](https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite)
-* SICC Codes - TBA
-* Company Number Formats - TBA
+* SICC Codes - [CoHouseLite](https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite)
+* Company Number Formats - [CoHouseLite](https://github.com/northwestopendata/lgtc_refdata/tree/master/CoHouseLite)
 
 ## Details
 
@@ -53,6 +53,7 @@ It's available as a single gzipped file or a set of 5 one million rows each in a
 | CoHouseLite.csv.gz | Single file | [CoHouseLite.csv.gz](https://mega.nz/file/MBxClIwT#a2EmsqPEp8WizvU6pO8RM43ZLlNL57vT10mVUocoy8E) | 212 | [Meta File](https://github.com/northwestopendata/lgtc_refdata/CoHouseLite.csv.gz.meta)|
 | CoHouseLite.zip | 5 files in a zip archive |[CoHouseLite.zip](https://mega.nz/file/gdgTBAzL#FeipiROBHWKPICVQRMqKgz3rTaOBnkQcK15dufWd13I) | 210 | [Meta File](https://github.com/northwestopendata/lgtc_refdata/CoHouseLite.zip.meta)|
 
+Also included are small CSV files of SIC Codes and Company Name prefixes.
 
 ## License
 
